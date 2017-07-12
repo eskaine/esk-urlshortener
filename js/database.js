@@ -3,7 +3,7 @@ const Hashids = require('hashids');
 const error = require('./error');
 
 const collectionName = process.env.COLL;
-const dburl = 'mongodb://' + process.env.USER + ':' + process.env.PASS + '@' + process.env.IP + ':' + process.env.PORT + '/' + process.env.DB;
+const dburl = 'mongodb://' + process.env.USER + ':' + process.env.PASS + '@' + process.env.IP + ':' + process.env.DB_PORT + '/' + process.env.DB;
 const hashids = new Hashids(collectionName);
 const siteurl = "https://esk-urlshortener.glitch.me/";
 
