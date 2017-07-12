@@ -1,6 +1,5 @@
 const express = require('express');
 const app = express();
-const port = 3000;
 
 //Modules
 const error = require('./js/error');
@@ -60,4 +59,4 @@ app.get('/:url', function(req, res) {
     });
 });
 
-app.listen(port);
+app.listen(process.env.PORT);
