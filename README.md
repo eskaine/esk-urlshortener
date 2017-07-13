@@ -4,7 +4,6 @@ URL Shortener Microservice
 Demo: https://esk-urlshortener.glitch.me/
 
 Example creation usage:
-
 https://esk-urlshortener.glitch.me/https://www.google.com
 https://esk-urlshortener.glitch.me/http://foo.com:80 
 
